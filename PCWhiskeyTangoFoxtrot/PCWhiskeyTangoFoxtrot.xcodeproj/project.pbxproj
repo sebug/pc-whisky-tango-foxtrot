@@ -15,6 +15,7 @@
 		EBD777F4245439FC007E8910 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBD777F2245439FC007E8910 /* LaunchScreen.storyboard */; };
 		EBD777FF245439FC007E8910 /* PCWhiskeyTangoFoxtrotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD777FE245439FC007E8910 /* PCWhiskeyTangoFoxtrotTests.swift */; };
 		EBD7780A245439FC007E8910 /* PCWhiskeyTangoFoxtrotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD77809245439FC007E8910 /* PCWhiskeyTangoFoxtrotUITests.swift */; };
+		EBD7781924543D7F007E8910 /* Letter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD7781824543D7F007E8910 /* Letter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		EBD77805245439FC007E8910 /* PCWhiskeyTangoFoxtrotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PCWhiskeyTangoFoxtrotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBD77809245439FC007E8910 /* PCWhiskeyTangoFoxtrotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PCWhiskeyTangoFoxtrotUITests.swift; sourceTree = "<group>"; };
 		EBD7780B245439FC007E8910 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBD7781824543D7F007E8910 /* Letter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Letter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		EBD777E6245439FB007E8910 /* PCWhiskeyTangoFoxtrot */ = {
 			isa = PBXGroup;
 			children = (
+				EBD7781724543D03007E8910 /* Models */,
 				EBD777E7245439FB007E8910 /* AppDelegate.swift */,
 				EBD777E9245439FB007E8910 /* SceneDelegate.swift */,
 				EBD777EB245439FB007E8910 /* ContentView.swift */,
@@ -134,6 +137,14 @@
 				EBD7780B245439FC007E8910 /* Info.plist */,
 			);
 			path = PCWhiskeyTangoFoxtrotUITests;
+			sourceTree = "<group>";
+		};
+		EBD7781724543D03007E8910 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EBD7781824543D7F007E8910 /* Letter.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,6 +281,7 @@
 				EBD777E8245439FB007E8910 /* AppDelegate.swift in Sources */,
 				EBD777EA245439FB007E8910 /* SceneDelegate.swift in Sources */,
 				EBD777EC245439FB007E8910 /* ContentView.swift in Sources */,
+				EBD7781924543D7F007E8910 /* Letter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
