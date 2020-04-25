@@ -16,6 +16,7 @@
 		EBD777FF245439FC007E8910 /* PCWhiskeyTangoFoxtrotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD777FE245439FC007E8910 /* PCWhiskeyTangoFoxtrotTests.swift */; };
 		EBD7780A245439FC007E8910 /* PCWhiskeyTangoFoxtrotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD77809245439FC007E8910 /* PCWhiskeyTangoFoxtrotUITests.swift */; };
 		EBD7781924543D7F007E8910 /* Letter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD7781824543D7F007E8910 /* Letter.swift */; };
+		EBD7781B24544060007E8910 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD7781A24544060007E8910 /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		EBD77809245439FC007E8910 /* PCWhiskeyTangoFoxtrotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PCWhiskeyTangoFoxtrotUITests.swift; sourceTree = "<group>"; };
 		EBD7780B245439FC007E8910 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EBD7781824543D7F007E8910 /* Letter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Letter.swift; sourceTree = "<group>"; };
+		EBD7781A24544060007E8910 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				EBD7781824543D7F007E8910 /* Letter.swift */,
+				EBD7781A24544060007E8910 /* Game.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -279,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EBD777E8245439FB007E8910 /* AppDelegate.swift in Sources */,
+				EBD7781B24544060007E8910 /* Game.swift in Sources */,
 				EBD777EA245439FB007E8910 /* SceneDelegate.swift in Sources */,
 				EBD777EC245439FB007E8910 /* ContentView.swift in Sources */,
 				EBD7781924543D7F007E8910 /* Letter.swift in Sources */,
