@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EBD777E8245439FB007E8910 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD777E7245439FB007E8910 /* AppDelegate.swift */; };
+		EBD777EA245439FB007E8910 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD777E9245439FB007E8910 /* SceneDelegate.swift */; };
+		EBD777EC245439FB007E8910 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD777EB245439FB007E8910 /* ContentView.swift */; };
+		EBD777EE245439FC007E8910 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBD777ED245439FC007E8910 /* Assets.xcassets */; };
+		EBD777F1245439FC007E8910 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBD777F0245439FC007E8910 /* Preview Assets.xcassets */; };
+		EBD777F4245439FC007E8910 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBD777F2245439FC007E8910 /* LaunchScreen.storyboard */; };
+		EBD777FF245439FC007E8910 /* PCWhiskeyTangoFoxtrotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD777FE245439FC007E8910 /* PCWhiskeyTangoFoxtrotTests.swift */; };
+		EBD7780A245439FC007E8910 /* PCWhiskeyTangoFoxtrotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD77809245439FC007E8910 /* PCWhiskeyTangoFoxtrotUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EBD777FB245439FC007E8910 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBD777DC245439FB007E8910 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBD777E3245439FB007E8910;
+			remoteInfo = PCWhiskeyTangoFoxtrot;
+		};
+		EBD77806245439FC007E8910 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBD777DC245439FB007E8910 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBD777E3245439FB007E8910;
+			remoteInfo = PCWhiskeyTangoFoxtrot;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EBD777E4245439FB007E8910 /* PCWhiskeyTangoFoxtrot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PCWhiskeyTangoFoxtrot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBD777E7245439FB007E8910 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EBD777E9245439FB007E8910 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EBD777EB245439FB007E8910 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EBD777ED245439FC007E8910 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EBD777F0245439FC007E8910 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EBD777F3245439FC007E8910 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EBD777F5245439FC007E8910 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBD777FA245439FC007E8910 /* PCWhiskeyTangoFoxtrotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PCWhiskeyTangoFoxtrotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBD777FE245439FC007E8910 /* PCWhiskeyTangoFoxtrotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PCWhiskeyTangoFoxtrotTests.swift; sourceTree = "<group>"; };
+		EBD77800245439FC007E8910 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBD77805245439FC007E8910 /* PCWhiskeyTangoFoxtrotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PCWhiskeyTangoFoxtrotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBD77809245439FC007E8910 /* PCWhiskeyTangoFoxtrotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PCWhiskeyTangoFoxtrotUITests.swift; sourceTree = "<group>"; };
+		EBD7780B245439FC007E8910 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBD777E1245439FB007E8910 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBD777F7245439FC007E8910 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBD77802245439FC007E8910 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EBD777DB245439FB007E8910 = {
+			isa = PBXGroup;
+			children = (
+				EBD777E6245439FB007E8910 /* PCWhiskeyTangoFoxtrot */,
+				EBD777FD245439FC007E8910 /* PCWhiskeyTangoFoxtrotTests */,
+				EBD77808245439FC007E8910 /* PCWhiskeyTangoFoxtrotUITests */,
+				EBD777E5245439FB007E8910 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EBD777E5245439FB007E8910 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBD777E4245439FB007E8910 /* PCWhiskeyTangoFoxtrot.app */,
+				EBD777FA245439FC007E8910 /* PCWhiskeyTangoFoxtrotTests.xctest */,
+				EBD77805245439FC007E8910 /* PCWhiskeyTangoFoxtrotUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBD777E6245439FB007E8910 /* PCWhiskeyTangoFoxtrot */ = {
+			isa = PBXGroup;
+			children = (
+				EBD777E7245439FB007E8910 /* AppDelegate.swift */,
+				EBD777E9245439FB007E8910 /* SceneDelegate.swift */,
+				EBD777EB245439FB007E8910 /* ContentView.swift */,
+				EBD777ED245439FC007E8910 /* Assets.xcassets */,
+				EBD777F2245439FC007E8910 /* LaunchScreen.storyboard */,
+				EBD777F5245439FC007E8910 /* Info.plist */,
+				EBD777EF245439FC007E8910 /* Preview Content */,
+			);
+			path = PCWhiskeyTangoFoxtrot;
+			sourceTree = "<group>";
+		};
+		EBD777EF245439FC007E8910 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EBD777F0245439FC007E8910 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EBD777FD245439FC007E8910 /* PCWhiskeyTangoFoxtrotTests */ = {
+			isa = PBXGroup;
+			children = (
+				EBD777FE245439FC007E8910 /* PCWhiskeyTangoFoxtrotTests.swift */,
+				EBD77800245439FC007E8910 /* Info.plist */,
+			);
+			path = PCWhiskeyTangoFoxtrotTests;
+			sourceTree = "<group>";
+		};
+		EBD77808245439FC007E8910 /* PCWhiskeyTangoFoxtrotUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EBD77809245439FC007E8910 /* PCWhiskeyTangoFoxtrotUITests.swift */,
+				EBD7780B245439FC007E8910 /* Info.plist */,
+			);
+			path = PCWhiskeyTangoFoxtrotUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBD777E3245439FB007E8910 /* PCWhiskeyTangoFoxtrot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBD7780E245439FC007E8910 /* Build configuration list for PBXNativeTarget "PCWhiskeyTangoFoxtrot" */;
+			buildPhases = (
+				EBD777E0245439FB007E8910 /* Sources */,
+				EBD777E1245439FB007E8910 /* Frameworks */,
+				EBD777E2245439FB007E8910 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PCWhiskeyTangoFoxtrot;
+			productName = PCWhiskeyTangoFoxtrot;
+			productReference = EBD777E4245439FB007E8910 /* PCWhiskeyTangoFoxtrot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EBD777F9245439FC007E8910 /* PCWhiskeyTangoFoxtrotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBD77811245439FC007E8910 /* Build configuration list for PBXNativeTarget "PCWhiskeyTangoFoxtrotTests" */;
+			buildPhases = (
+				EBD777F6245439FC007E8910 /* Sources */,
+				EBD777F7245439FC007E8910 /* Frameworks */,
+				EBD777F8245439FC007E8910 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBD777FC245439FC007E8910 /* PBXTargetDependency */,
+			);
+			name = PCWhiskeyTangoFoxtrotTests;
+			productName = PCWhiskeyTangoFoxtrotTests;
+			productReference = EBD777FA245439FC007E8910 /* PCWhiskeyTangoFoxtrotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EBD77804245439FC007E8910 /* PCWhiskeyTangoFoxtrotUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBD77814245439FC007E8910 /* Build configuration list for PBXNativeTarget "PCWhiskeyTangoFoxtrotUITests" */;
+			buildPhases = (
+				EBD77801245439FC007E8910 /* Sources */,
+				EBD77802245439FC007E8910 /* Frameworks */,
+				EBD77803245439FC007E8910 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBD77807245439FC007E8910 /* PBXTargetDependency */,
+			);
+			name = PCWhiskeyTangoFoxtrotUITests;
+			productName = PCWhiskeyTangoFoxtrotUITests;
+			productReference = EBD77805245439FC007E8910 /* PCWhiskeyTangoFoxtrotUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBD777DC245439FB007E8910 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = sebugtech;
+				TargetAttributes = {
+					EBD777E3245439FB007E8910 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					EBD777F9245439FC007E8910 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = EBD777E3245439FB007E8910;
+					};
+					EBD77804245439FC007E8910 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = EBD777E3245439FB007E8910;
+					};
+				};
+			};
+			buildConfigurationList = EBD777DF245439FB007E8910 /* Build configuration list for PBXProject "PCWhiskeyTangoFoxtrot" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBD777DB245439FB007E8910;
+			productRefGroup = EBD777E5245439FB007E8910 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBD777E3245439FB007E8910 /* PCWhiskeyTangoFoxtrot */,
+				EBD777F9245439FC007E8910 /* PCWhiskeyTangoFoxtrotTests */,
+				EBD77804245439FC007E8910 /* PCWhiskeyTangoFoxtrotUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBD777E2245439FB007E8910 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBD777F4245439FC007E8910 /* LaunchScreen.storyboard in Resources */,
+				EBD777F1245439FC007E8910 /* Preview Assets.xcassets in Resources */,
+				EBD777EE245439FC007E8910 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBD777F8245439FC007E8910 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBD77803245439FC007E8910 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBD777E0245439FB007E8910 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBD777E8245439FB007E8910 /* AppDelegate.swift in Sources */,
+				EBD777EA245439FB007E8910 /* SceneDelegate.swift in Sources */,
+				EBD777EC245439FB007E8910 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBD777F6245439FC007E8910 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBD777FF245439FC007E8910 /* PCWhiskeyTangoFoxtrotTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBD77801245439FC007E8910 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBD7780A245439FC007E8910 /* PCWhiskeyTangoFoxtrotUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EBD777FC245439FC007E8910 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBD777E3245439FB007E8910 /* PCWhiskeyTangoFoxtrot */;
+			targetProxy = EBD777FB245439FC007E8910 /* PBXContainerItemProxy */;
+		};
+		EBD77807245439FC007E8910 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBD777E3245439FB007E8910 /* PCWhiskeyTangoFoxtrot */;
+			targetProxy = EBD77806245439FC007E8910 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EBD777F2245439FC007E8910 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBD777F3245439FC007E8910 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBD7780C245439FC007E8910 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EBD7780D245439FC007E8910 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBD7780F245439FC007E8910 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"PCWhiskeyTangoFoxtrot/Preview Content\"";
+				DEVELOPMENT_TEAM = 54KLWW8ME6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = PCWhiskeyTangoFoxtrot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ch.sebug.PCWhiskeyTangoFoxtrot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EBD77810245439FC007E8910 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"PCWhiskeyTangoFoxtrot/Preview Content\"";
+				DEVELOPMENT_TEAM = 54KLWW8ME6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = PCWhiskeyTangoFoxtrot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ch.sebug.PCWhiskeyTangoFoxtrot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EBD77812245439FC007E8910 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 54KLWW8ME6;
+				INFOPLIST_FILE = PCWhiskeyTangoFoxtrotTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ch.sebug.PCWhiskeyTangoFoxtrotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PCWhiskeyTangoFoxtrot.app/PCWhiskeyTangoFoxtrot";
+			};
+			name = Debug;
+		};
+		EBD77813245439FC007E8910 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 54KLWW8ME6;
+				INFOPLIST_FILE = PCWhiskeyTangoFoxtrotTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ch.sebug.PCWhiskeyTangoFoxtrotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PCWhiskeyTangoFoxtrot.app/PCWhiskeyTangoFoxtrot";
+			};
+			name = Release;
+		};
+		EBD77815245439FC007E8910 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 54KLWW8ME6;
+				INFOPLIST_FILE = PCWhiskeyTangoFoxtrotUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ch.sebug.PCWhiskeyTangoFoxtrotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PCWhiskeyTangoFoxtrot;
+			};
+			name = Debug;
+		};
+		EBD77816245439FC007E8910 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 54KLWW8ME6;
+				INFOPLIST_FILE = PCWhiskeyTangoFoxtrotUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ch.sebug.PCWhiskeyTangoFoxtrotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PCWhiskeyTangoFoxtrot;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBD777DF245439FB007E8910 /* Build configuration list for PBXProject "PCWhiskeyTangoFoxtrot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBD7780C245439FC007E8910 /* Debug */,
+				EBD7780D245439FC007E8910 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBD7780E245439FC007E8910 /* Build configuration list for PBXNativeTarget "PCWhiskeyTangoFoxtrot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBD7780F245439FC007E8910 /* Debug */,
+				EBD77810245439FC007E8910 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBD77811245439FC007E8910 /* Build configuration list for PBXNativeTarget "PCWhiskeyTangoFoxtrotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBD77812245439FC007E8910 /* Debug */,
+				EBD77813245439FC007E8910 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBD77814245439FC007E8910 /* Build configuration list for PBXNativeTarget "PCWhiskeyTangoFoxtrotUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBD77815245439FC007E8910 /* Debug */,
+				EBD77816245439FC007E8910 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBD777DC245439FB007E8910 /* Project object */;
+}
